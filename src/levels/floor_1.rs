@@ -1,3 +1,5 @@
+// Numbers in Rust
+
 pub fn numbers() {
     let x:i8 = -12;
     let y:u8 = 45;
