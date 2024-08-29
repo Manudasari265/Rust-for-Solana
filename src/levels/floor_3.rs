@@ -11,5 +11,9 @@ pub fn strings() {
         None => println!("No character at index 1"),
     }
 
-    println!("{}", char1);
+    println!("{:?}", char1);
+
+    if let Some(c) = char1 {
+        println!("{}", c);
+    }
 }
