@@ -8,11 +8,11 @@ mod levels {
 use levels::floor_1::numbers;
 use levels::floor_2::booleans;
 use levels::floor_3::strings;
-use levels::floor_4::ConditionalsAndLoops;
+use levels::floor_4::conditionals_and_loops;
 
 fn main() {
     numbers();
     booleans();
     strings();
-    ConditionalsAndLoops();
+    conditionals_and_loops();
 }
