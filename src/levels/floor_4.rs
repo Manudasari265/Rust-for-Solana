@@ -1,9 +1,9 @@
-// Conditionals and Loops
+// * Conditionals and Loops
 
 pub fn conditionals_and_loops() {
     let is_even = true;
 
-    if(is_even) {
+    if is_even {
         println!("The number is even");
     }
     else{
@@ -21,7 +21,7 @@ pub fn conditionals_and_loops() {
         let mut ans: String = String::from("");
         for char in sentence.chars() {
             ans.push_str(char.to_string().as_str());
-            if(char == ' ') {
+            if char == ' ' {
                 break;
             }
         }

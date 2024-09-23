@@ -1,4 +1,4 @@
-// Numbers in Rust
+// * Numbers in Rust
 
 pub fn numbers() {
     let x:i8 = -12;

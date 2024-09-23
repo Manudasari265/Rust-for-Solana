@@ -1,4 +1,4 @@
-// Strings
+// * Strings
 
 pub fn strings() {
     let greeting = String::from("Hello world");

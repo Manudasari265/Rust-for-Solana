@@ -1,4 +1,4 @@
-// Booleans in Rust
+// * Booleans in Rust
 
 pub fn booleans() {
     let is_male: bool = true;
