@@ -6,6 +6,7 @@ mod levels {
     pub mod floor_5;
     pub mod floor_6;
     mod floor_7;
+    mod floor_8;
 }
 
 use levels::floor_1::numbers;
