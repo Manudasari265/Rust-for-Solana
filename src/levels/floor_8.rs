@@ -15,12 +15,23 @@ fn main() {
     }
     println!("The longest string is: {}", result);
 
+    // Result in error handling
     fn divide(a: f64, b: f64) -> Result<f64, String> {
         if b == 0.0 {
             Err(String::from("Division by zero"))
         } else {
             Ok(a / b)
         }
+    }
+
+    // Options in error handling
+    fn find_char(s: &str, c: char) -> Option<usize> {
+        for (i, ch) in s.chars().enumerate() {
+            if ch == c {
+                return Some(i);
+            }
+        }
+        None
     }
 }
 
